@@ -14,3 +14,6 @@ runs:
     - id: main
       run: . ${{ github.action_path }}/listToJson.sh ${{ inputs.list }}
       shell: bash
+branding:
+  icon: align-justify
+  color: red
